@@ -5,6 +5,8 @@ import MapMethod from './component/MapMethod'
 import PropsMethode from './component/PropsMethode'
 import Weather from './component/Weather'
 import CartItem from './component/CartItem'
+import UserStatus from './component/UserStatus'
+import TimetoDay from './component/TimetoDay'
 
 const App=()=> {
 
@@ -16,8 +18,11 @@ const App=()=> {
      <PropsMethode/>
      <Weather/>
 
-     
+
      <CartItem/>
+
+     <UserStatus/>
+     <TimetoDay/>
     </div>
   )
 }
