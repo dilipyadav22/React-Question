@@ -4,7 +4,8 @@ const ValidatePassword = ()=><h1>valid Password</h1>
 const InvalidtePassword =()=><h1>Invalid password</h1>
 
 const Weather = () => {
-    const pr = Number(prompt("enter the tem"));
+    // const pr = Number(prompt("enter the tem"));
+    let pr=15;
   return (
     <>
     <h1>Weather </h1>

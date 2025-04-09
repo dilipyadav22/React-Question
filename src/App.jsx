@@ -7,6 +7,7 @@ import Weather from './component/Weather'
 import CartItem from './component/CartItem'
 import UserStatus from './component/UserStatus'
 import TimetoDay from './component/TimetoDay'
+import CRUDArr from './component/CRUDArr'
 
 const App=()=> {
 
@@ -23,6 +24,8 @@ const App=()=> {
 
      <UserStatus/>
      <TimetoDay/>
+     <br></br><br></br>
+     <CRUDArr/>
     </div>
   )
 }
