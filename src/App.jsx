@@ -12,6 +12,8 @@ import ObjectEdit from './component/ObjectEdit'
 import AllMoviePrint from './component/AllMoviePrint'
 import SahreState from './component/SahreState'
 import InUseStateCallBack from './component/InUseStateCallBack'
+import RandomNum from './component/RandomNum'
+import SetlocalandGet from './component/SetlocalandGet'
 
 const App=()=> {
 
@@ -39,6 +41,10 @@ const App=()=> {
      <SahreState/>
      <br/>
      <InUseStateCallBack/>
+
+     <RandomNum/>
+     <br/>
+     <SetlocalandGet/>
     </div>
   )
 }
