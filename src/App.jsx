@@ -9,6 +9,9 @@ import UserStatus from './component/UserStatus'
 import TimetoDay from './component/TimetoDay'
 import CRUDArr from './component/CRUDArr'
 import ObjectEdit from './component/ObjectEdit'
+import AllMoviePrint from './component/AllMoviePrint'
+import SahreState from './component/SahreState'
+import InUseStateCallBack from './component/InUseStateCallBack'
 
 const App=()=> {
 
@@ -29,6 +32,13 @@ const App=()=> {
      <CRUDArr/>
      <br></br>
      <ObjectEdit/>
+
+     <AllMoviePrint/>
+
+     <br/>
+     <SahreState/>
+     <br/>
+     <InUseStateCallBack/>
     </div>
   )
 }
