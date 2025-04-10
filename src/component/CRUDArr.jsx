@@ -14,7 +14,7 @@ const CRUDArr = () => {
     <div>
         {
             friend.map((f)=>(
-                <li>{f}</li>
+                <li key={Math.random()} >{f}</li>
             ))
         }
         <button onClick={AddFrnd} >ADD more Frnd</button>

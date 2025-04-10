@@ -8,6 +8,7 @@ import CartItem from './component/CartItem'
 import UserStatus from './component/UserStatus'
 import TimetoDay from './component/TimetoDay'
 import CRUDArr from './component/CRUDArr'
+import ObjectEdit from './component/ObjectEdit'
 
 const App=()=> {
 
@@ -26,6 +27,8 @@ const App=()=> {
      <TimetoDay/>
      <br></br><br></br>
      <CRUDArr/>
+     <br></br>
+     <ObjectEdit/>
     </div>
   )
 }
