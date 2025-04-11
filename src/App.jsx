@@ -17,6 +17,7 @@ import SetlocalandGet from './component/SetlocalandGet'
 import Todos from './component/Todos'
 import PrfileShow from './component/PrfileShow'
 import ShoppingList from './component/ShoppingList'
+import Copycontent from './component/Copycontent'
 
 const App=()=> {
 
@@ -54,6 +55,8 @@ const App=()=> {
      <PrfileShow/>
      <br/>
      <ShoppingList/>
+     <br/>
+     <Copycontent/>
     </div>
   )
 }

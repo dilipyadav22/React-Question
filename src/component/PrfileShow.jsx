@@ -23,6 +23,7 @@ const PrfileShow = () => {
 
   return (
     <div>
+        <h1>Profile Show</h1>
         <form onSubmit={handleSubmit} >
             <div>
                 <label>Name:
@@ -37,12 +38,11 @@ const PrfileShow = () => {
             </div>
         </form>
 
-        <ul>
+ 
            
                <li>{profile.name}</li>
-                    <li>{profile.age}</li>
-                
-        </ul>
+                 <li>{profile.age}</li>
+
     </div>
   )
 }
