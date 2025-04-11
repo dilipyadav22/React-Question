@@ -18,6 +18,7 @@ import Todos from './component/Todos'
 import PrfileShow from './component/PrfileShow'
 import ShoppingList from './component/ShoppingList'
 import Copycontent from './component/Copycontent'
+import SwitchUiKey from './component/SwitchUiKey'
 
 const App=()=> {
 
@@ -57,6 +58,8 @@ const App=()=> {
      <ShoppingList/>
      <br/>
      <Copycontent/>
+     <br/>
+     <SwitchUiKey/>
     </div>
   )
 }
