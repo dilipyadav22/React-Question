@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {createPortal} from 'react-dom'
 
 const Copycontent = () => {
     const [inputValue, setInputValue] = useState('');
@@ -7,7 +8,7 @@ const Copycontent = () => {
     const handle=()=>{
         navigator.clipboard.writeText(inputValue).then(()=>{
             setCopied(true);
-            setTimeout(()=>setCopied(false),2000);
+            setTimeout(()=>setCopied(false),5000);
         })
     }
 
@@ -28,9 +29,10 @@ export default Copycontent
 
 const PageContent =({copied})=>{
 
-  return(
+  return createPortal(
    <div>
     {copied && <p>Clip board content Copy Successfully</p>}
-   </div>
+   </div>,
+   document.querySelector('#popup-content')
   )
 }
