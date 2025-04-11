@@ -15,6 +15,8 @@ import InUseStateCallBack from './component/InUseStateCallBack'
 import RandomNum from './component/RandomNum'
 import SetlocalandGet from './component/SetlocalandGet'
 import Todos from './component/Todos'
+import PrfileShow from './component/PrfileShow'
+import ShoppingList from './component/ShoppingList'
 
 const App=()=> {
 
@@ -48,6 +50,10 @@ const App=()=> {
      <SetlocalandGet/>
      <br/>
      <Todos/>
+     <br/>
+     <PrfileShow/>
+     <br/>
+     <ShoppingList/>
     </div>
   )
 }
