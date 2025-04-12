@@ -19,6 +19,7 @@ import PrfileShow from './component/PrfileShow'
 import ShoppingList from './component/ShoppingList'
 import Copycontent from './component/Copycontent'
 import SwitchUiKey from './component/SwitchUiKey'
+import FetchAPI from './component/FetchAPI'
 
 const App=()=> {
 
@@ -60,6 +61,9 @@ const App=()=> {
      <Copycontent/>
      <br/>
      <SwitchUiKey/>
+
+     <br/>
+     <FetchAPI/>
     </div>
   )
 }
