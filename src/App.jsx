@@ -20,6 +20,7 @@ import ShoppingList from './component/ShoppingList'
 import Copycontent from './component/Copycontent'
 import SwitchUiKey from './component/SwitchUiKey'
 import FetchAPI from './component/FetchAPI'
+import {ContextApiUse} from './component/ContextApiUse'
 
 const App=()=> {
 
@@ -64,6 +65,8 @@ const App=()=> {
 
      <br/>
      <FetchAPI/>
+
+      <ContextApiUse/>
     </div>
   )
 }
